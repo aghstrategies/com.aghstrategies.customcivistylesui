@@ -9,3 +9,28 @@
    margin: 0px;
   }
 }
+
+/*css for all contribution pages*/
+body #cvv2 {
+  width: 100px;
+  display: inline-block;
+}
+
+#credit_card_exp_date_M,
+#credit_card_exp_date_Y {
+  width: 100px;
+  clear: both;
+  display: inline;
+}
+
+.billing_name_address-section .crm-form-text {
+  width: 100%;
+}
+
+.billing_name_address-section .crm-select2 {
+  width: 100% !important;
+}
+
+#crm-container.crm-public input[type="text"], #crm-container.crm-public input[type="password"], #crm-container.crm-public input[type="email"], #crm-container.crm-public select {
+	height: 40px;
+}
