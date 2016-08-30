@@ -1,0 +1,11 @@
+/*floats civi form labels above inputs instead of next to them on small screens*/
+@media screen and (max-width: 675px) {
+  body .crm-container .crm-section .label {
+   float: none;
+   width: auto;
+   text-align: left;
+  }
+  body .crm-container .crm-section .content {
+   margin: 0px;
+  }
+}
