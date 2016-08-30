@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <extension key="com.aghstrategies.customcivistylesui" type="module">
   <file>customcivistylesui</file>
-  <name></name>
+  <name>Custom CiviCRM Styles UI</name>
   <description>Settings page for custom styles for civicrm</description>
   <license>AGPL-3.0</license>
   <maintainer>
@@ -9,9 +9,7 @@
     <email>alice@aghstrategies.com</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">https://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Documentation">https://github.com/aghstrategies/com.aghstrategies.customcivistylesui/blob/master/README.md</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2016-08-30</releaseDate>

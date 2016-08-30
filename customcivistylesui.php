@@ -3,6 +3,34 @@
 require_once 'customcivistylesui.civix.php';
 
 /**
+ * Implements hook_civicrm_buildform().
+ * @param  string $formName  Name of form
+ * @param  object $form     form object
+ */
+function customcivistylesui_civicrm_buildform($formName, &$form) {
+  try {
+    $pages = civicrm_api3('Setting', 'get', array(
+      'sequential' => 1,
+      'return' => "customcivistylesui_pricesetbuttonpages",
+    ));
+  }
+  catch (CiviCRM_API3_Exception $e) {
+    $error = $e->getMessage();
+    CRM_Core_Error::debug_log_message(t('API Error: %1', array(1 => $error, 'domain' => 'com.aghstrategies.customcivistylesui')));
+  }
+  if (!empty($pages['values'][0]['customcivistylesui_pricesetbuttonpages'])) {
+    $pages = $pages['values'][0]['customcivistylesui_pricesetbuttonpages'];
+  }
+  if ($formName == 'CRM_Contribute_Form_Contribution_Main') {
+    CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/generalform.css');
+    if (in_array($form->getVar('_id'), $pages)) {
+      CRM_Core_Resources::singleton()->addScriptFile('com.aghstrategies.customcivistylesui', 'js/pricesetbuttons.js');
+      CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/pricesetbuttons.css');
+    }
+  }
+}
+
+/**
  * Implements hook_civicrm_config().
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_config
