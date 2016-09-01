@@ -24,9 +24,6 @@ div.crm-container label.box-content {
   position: relative;
   line-height: 27px;
   display: block;
-}
-
-#crm-container.crm-public .price-set-row .selected-box .box-content .crm-price-amount-amount {
   color: #004C57;
 }
 
@@ -42,13 +39,12 @@ div.crm-container label.box-content {
 }
 
 .selected-box .box-content .crm-price-amount-amount::after {
-  background-color: #004C57;
+  background-color: #D8723C;
 }
 
 #crm-container.crm-public .price-set-row .box-content .crm-price-amount-label {
   display: block;
   font-weight: normal;
-  color: #004C57;
 }
 
 #crm-container .crm-section.featured-boxes>.content {
