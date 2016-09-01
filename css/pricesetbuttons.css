@@ -105,5 +105,7 @@ body .four {
 }
 
 .contribution_amount-row7 {
-  float: none;
+	float: left;
+	margin-left: 265px;
+	width: 100%;
 }
