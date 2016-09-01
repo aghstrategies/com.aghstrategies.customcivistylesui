@@ -31,7 +31,7 @@ div.crm-container label.box-content {
 }
 
 .box-content .crm-price-amount-amount::after {
-  background: #533422 none repeat scroll 0 0;
+  background: #004C57 none repeat scroll 0 0;
   bottom: -16px;
   content: "";
   height: 2px;
@@ -48,6 +48,7 @@ div.crm-container label.box-content {
 #crm-container.crm-public .price-set-row .box-content .crm-price-amount-label {
   display: block;
   font-weight: normal;
+  color: #004C57;
 }
 
 #crm-container .crm-section.featured-boxes>.content {
