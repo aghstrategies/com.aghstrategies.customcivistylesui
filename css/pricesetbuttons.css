@@ -1,11 +1,10 @@
 /*css for pages identified on settings page*/
-.price-set-option-content.featured-box,
+/*.price-set-option-content.featured-box,
 div.crm-container label.box-content {
   display: block;
 }
 
 .price-set-option-content {
-  /*padding: 27px;*/
   padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -102,7 +101,64 @@ div.crm-container label.box-content {
   background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f9f9f9 0%, #ffffff 100%) repeat scroll 0 0;
 }
 
-body .four {
-  margin-left: 65px;
-  margin-top: 10px;
+*/
+
+div.content.contribution_amount-content {
+  max-width: 800px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  /* You can set flex-wrap and flex-direction individually */
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* Or do it all in one line with flex flow */
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  /* tweak the where items line up on the row */
+  /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+  -webkit-align-content: flex-end;
+  align-content: flex-end;
+  margin-left: 0 !important;
+}
+
+.price-set-row {
+  width: 250px;
+  height: 200px;
+  margin: auto;
+  border: 1px solid #004C57;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#crm-container.crm-public .price-set-row .box-content .crm-price-amount-amount {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.7px;
+  margin-bottom: 23px;
+  margin-top: 25px;
+  position: relative;
+  line-height: 27px;
+  display: block;
+}
+
+#priceset .contribution_amount-section .price-set-row .price-set-option-content input.crm-form-radio {
+  display: none;
+}
+
+#crm-container.crm-public .price-set-row .box-content .crm-price-amount-label {
+  display: block;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 120px;
+  width: 210px;
+}
+
+.price-set-row:hover {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #CCDBDD 0%, #ffffff 100%) repeat scroll 0 0;
 }
