@@ -1,5 +1,17 @@
 /*css for pages identified on settings page*/
 
+/*floats label above amounts*/
+#crm-container .crm-section.featured-boxes>.label {
+  float: none;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 24px;
+  padding: 15px 15px 0;
+  text-align: left;
+  width: auto;
+}
+
+/*sets up flexbox*/
 div.content.contribution_amount-content,
 div.content.membership_amount-content {
   max-width: 800px;
@@ -80,7 +92,7 @@ div.content.membership_amount-content {
 
 /*line between amount and description*/
 .box-content .crm-price-amount-amount::after {
-  background: #533422 none repeat scroll 0 0;
+  background:  #D8723C none repeat scroll 0 0;
   bottom: -16px;
   content: "";
   height: 2px;
@@ -90,5 +102,5 @@ div.content.membership_amount-content {
   width: 92px;
 }
 .selected-box .box-content .crm-price-amount-amount::after {
-  background-color: #004C57;
+  background-color:  #D8723C;
 }
