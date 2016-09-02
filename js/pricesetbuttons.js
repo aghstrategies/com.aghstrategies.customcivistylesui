@@ -61,6 +61,6 @@ CRM.$(function ($) {
   // Helper to set the "selected-box" class on the selected item:
   function colorSelected() {
     $('.selected-box').removeClass('selected-box');
-    $('#priceset .contribution_amount-section .price-set-row .price-set-option-content input.crm-form-radio:checked').closest('.featured-box').addClass('selected-box');
+    $('#priceset .contribution_amount-section .price-set-row input.crm-form-radio:checked').closest('.price-set-row').addClass('selected-box');
   }
 });
