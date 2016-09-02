@@ -90,6 +90,10 @@ div.content.membership_amount-content {
   color: #004C57;
 }
 
+body .four {
+  margin-left: 65px;
+  margin-top: 10px;
+}
 /*line between amount and description*/
 .box-content .crm-price-amount-amount::after {
   background:  #D8723C none repeat scroll 0 0;
