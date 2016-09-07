@@ -33,6 +33,7 @@ div.content.membership_amount-content {
   /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
   -webkit-align-content: flex-end;
   align-content: flex-end;
+  margin-bottom: 25px;
 }
 
 #crm-container .crm-section.featured-boxes>.content {
@@ -107,9 +108,4 @@ body .four {
 }
 .selected-box .box-content .crm-price-amount-amount::after {
   background-color:  #D8723C;
-}
-
-body div.content.contribution_amount-section {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
 }
