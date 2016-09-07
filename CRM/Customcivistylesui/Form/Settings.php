@@ -36,7 +36,7 @@ class CRM_Customcivistylesui_Form_Settings extends CRM_Core_Form {
     try {
       $existingSetting = civicrm_api3('Setting', 'get', array(
         'sequential' => 1,
-        'return' => 'pricesetbuttonpages',
+        'return' => "customcivistylesui_pricesetbuttonpages",
       ));
     }
     catch (CiviCRM_API3_Exception $e) {
@@ -45,7 +45,7 @@ class CRM_Customcivistylesui_Form_Settings extends CRM_Core_Form {
     }
     // TODO Get default working
     // $defaults['pricesetbuttonpages'] = $existingSetting['values'][0]['pricesetbuttonpages'];
-    $defaults['pricesetbuttonpages'] = $existingSetting;
+    $defaults['pricesetbuttonpages'] = $existingSetting['values'][0]['customcivistylesui_pricesetbuttonpages'];
 
     $this->setDefaults($defaults);
     parent::buildQuickForm();
