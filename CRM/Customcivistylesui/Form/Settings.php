@@ -43,6 +43,7 @@ class CRM_Customcivistylesui_Form_Settings extends CRM_Core_Form {
       $error = $e->getMessage();
       CRM_Core_Error::debug_log_message(t('API Error: %1', array(1 => $error, 'domain' => 'com.aghstrategies.customcivistylesui')));
     }
+    // TODO Get default working
     // $defaults['pricesetbuttonpages'] = $existingSetting['values'][0]['pricesetbuttonpages'];
     $defaults['pricesetbuttonpages'] = $existingSetting;
 
