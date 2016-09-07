@@ -22,7 +22,8 @@ function customcivistylesui_civicrm_buildform($formName, &$form) {
     $pages = $pages['values'][0]['customcivistylesui_pricesetbuttonpages'];
   }
   if ($formName == 'CRM_Contribute_Form_Contribution_Main') {
-    CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/generalform.css');
+    // TODO if adding a setting for loading web responsive styles for civi forms use this code
+    // CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/generalform.css');
     if (in_array($form->getVar('_id'), $pages)) {
       CRM_Core_Resources::singleton()->addScriptFile('com.aghstrategies.customcivistylesui', 'js/pricesetbuttons.js');
       CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/pricesetbuttons.css');
