@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <extension key="com.aghstrategies.customcivistylesui" type="module">
   <file>customcivistylesui</file>
-  <name>Custom CiviCRM Styles UI</name>
-  <description>Settings page for custom styles for civicrm</description>
+  <name>Custom CiviCRM Contribution Page Buttons</name>
+  <description>Settings page for custom styles for civicrm contribution pages on which to display pricesets as buttons</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Alice Frumin</author>
