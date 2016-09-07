@@ -31,6 +31,9 @@ class CRM_Customcivistylesui_Form_Settings extends CRM_Core_Form {
     ));
     // Send element names to the form.
     $this->assign('elementNames', array('pricesetbuttonpages'));
+    $defaults = array();
+    $defaults['pricesetbuttonpages'] = array(5, 27);
+    $this->setDefaults($defaults);
     parent::buildQuickForm();
   }
 
