@@ -53,8 +53,8 @@ div.content.membership_amount-content {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: -0.7px;
-  margin-bottom: 23px;
-  margin-top: 25px;
+  margin-bottom: 13px;
+  margin-top: 13px;
   position: relative;
   line-height: 27px;
   display: block;
@@ -69,8 +69,8 @@ div.content.membership_amount-content {
 #crm-container.crm-public .price-set-row .box-content .crm-price-amount-label {
   display: block;
   font-weight: normal;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 13px;
+  margin-right: 13px;
   /*height: 120px;
   width: 210px;*/
 }
@@ -92,13 +92,13 @@ div.content.membership_amount-content {
 }
 
 body .four {
-  margin-left: 75px;
-  margin-top: 10px;
+  margin-left: 44px;
+  margin-top: 3px;
 }
 /*line between amount and description*/
 .box-content .crm-price-amount-amount::after {
   background:  #D8723C none repeat scroll 0 0;
-  bottom: -16px;
+  bottom: -10px;
   content: "";
   height: 2px;
   left: 50%;
