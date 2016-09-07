@@ -109,6 +109,7 @@ body .four {
   background-color:  #D8723C;
 }
 
-body .contribution_amount-section {
+body div.content.contribution_amount-section {
   margin-bottom: 20px;
+  padding-bottom: 20px;
 }
