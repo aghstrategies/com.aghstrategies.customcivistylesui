@@ -41,10 +41,10 @@ div.content.membership_amount-content {
 }
 
 .price-set-row {
-  width: 190px;
-  height: 150px;
+  width: 220px;
+  height: 220px;
   margin: 3px;
-  border: 1px solid #004C57;
+  border: 1px solid #00676A;
   border-radius: 10px;
   text-align: center;
 }
@@ -58,7 +58,7 @@ div.content.membership_amount-content {
   position: relative;
   line-height: 27px;
   display: block;
-  color: #004C57;
+  color: #00676A;
 }
 
 #priceset .contribution_amount-section .price-set-row .price-set-option-content input.crm-form-radio,
@@ -82,13 +82,13 @@ div.content.membership_amount-content {
 .selected-box {
   /*width: 187px;
   height: 147px;*/
-  border: 4px solid #004C57;
+  border: 4px solid #00676A;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f9f9f9 0%, #ffffff 100%) repeat scroll 0 0;
 }
 
 #crm-container h4 {
-  color: #004C57;
+  color: #00676A;
 }
 
 body .four {
@@ -97,7 +97,7 @@ body .four {
 }
 /*line between amount and description*/
 .box-content .crm-price-amount-amount::after {
-  background:  #D8723C none repeat scroll 0 0;
+  background:  #BAC497 none repeat scroll 0 0;
   bottom: -10px;
   content: "";
   height: 2px;
@@ -107,5 +107,5 @@ body .four {
   width: 92px;
 }
 .selected-box .box-content .crm-price-amount-amount::after {
-  background-color:  #D8723C;
+  background-color:  #BAC497;
 }
