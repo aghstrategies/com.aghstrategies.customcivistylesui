@@ -41,12 +41,16 @@ div.content.membership_amount-content {
 }
 
 .price-set-row {
-  width: 200px;
+  width: 190px;
   height: 150px;
   margin: 3px;
   border: 1px solid #004C57;
   border-radius: 10px;
   text-align: center;
+}
+
+.crm-contribution-page-id-28 .price-set-row {
+  width: 200px;
 }
 
 #crm-container.crm-public .price-set-row .crm-price-amount-amount {
