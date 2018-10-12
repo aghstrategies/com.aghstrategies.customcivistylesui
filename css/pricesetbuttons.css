@@ -75,8 +75,13 @@ div.content.membership_amount-content {
   font-weight: normal;
   margin-left: 13px;
   margin-right: 13px;
-  /*height: 120px;
-  width: 210px;*/
+  height: 100%;
+  position: relative;
+  top: -55px;
+}
+
+#crm-container.crm-public .price-set-row .box-content .crm-price-amount-label#otheramount-wrapper {
+ top: 0px;
 }
 
 .price-set-row:hover {
