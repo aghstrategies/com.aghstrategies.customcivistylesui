@@ -11,6 +11,10 @@
   width: auto;
 }
 
+.crm-price-amount-label-separator {
+  display: none;
+}
+
 /*sets up flexbox*/
 div.content.contribution_amount-content,
 div.content.membership_amount-content {
@@ -76,7 +80,6 @@ div.content.membership_amount-content {
   margin-left: 13px;
   margin-right: 13px;
   height: 100%;
-  position: relative;
   top: -55px;
 }
 
