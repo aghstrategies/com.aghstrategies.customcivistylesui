@@ -19,6 +19,7 @@ div.crm-section.credit_card_exp_date-section {
 
 
 div#intro_text {
+  padding: 10px;
   padding-top: 6px;
 }
 body .crm-container .crm-section {
@@ -39,7 +40,7 @@ body .crm-container .crm-section .content {
    min-height: 28px;
 }
 
-.crm-container fieldset legend {
+body .crm-container fieldset legend {
   color: #fff;
   background-color: orange;
   width: 100%;
@@ -67,71 +68,100 @@ div.crm-section.credit_card_number-section input {
   width: 100% !important;
 }
 
-.crm-container .crm-button {
-  text-shadow: none;
-  background: none;
-  background-color: orange;
-  border: none;
+
+
+
+#crm-container.crm-public input[type="text"].crm-form-text,
+.crm-container .big,
+div.crm-section.email-5-section div.content input,
+div.crm-section.credit_card_number-section input {
+  width: 97%;
+}
+
+div.select2-container.crm-select2.crm-form-select,
+.crm-container div#s2id_state_province-Primary,
+.crm-container div#s2id_country-Primary {
+ width: 100% !important;
+}
+
+#crm-container.crm-public input[type="text"][name="cvv2"].crm-form-text {
+ width: 100px;
+}
+
+
+.crm-container .crm-submit-buttons .crm-button {
+ background: none;
+ border: none;
+ text-align: center;
+ float: none !important;
+}
+
+.crm-container .crm-submit-buttons input.crm-form-submit {
+ text-shadow: none;
 }
 
 .crm-container span.crm-button {
-  display: block;
-  float: none !important;
-  overflow: hidden;
-  padding: 1px;
-  width: 250px;
-  margin: auto;
-  height: 30px;
+ float: none !important;
 }
 
-.crm-container .crm-button,
-.crm-container input.crm-form-submit {
-  text-shadow: none;
-  font-size: 20px;
-  font-weight: bold;
+.crm-container .crm-submit-buttons .crm-button.crm-i-button input.crm-form-submit {
+ padding-left: 0px;
+ font-weight: 600;
+ font-size: 16px;
+ background-color: #0a3a50;
+ color: white;
+ padding: 10px 30px;
+ text-align: center;
 }
 
-.crm-container .crm-section .label label {
-  font-weight: bold;
+.crm-container .crm-submit-buttons .crm-button.crm-i-button input.crm-form-submit:hover {
+ background-color: #105c7f;
+}
+.crm-submit-buttons i.crm-i.fa-check {
+ display: none;
 }
 
-#crm-container.crm-public .price-set-row label {
-  height: 10px;
-  width: 300px;
-  border: 3px solid black;
-}
-
-div.crm-section.other_amount-section,
-span.crm-price-amount-label-separator,
-#crm-container.crm-public .price-set-row input[type='radio'] {
-  display: none;
-}
-
-#crm-container.crm-public .price-set-row .crm-price-amount-label,
-span.crm-price-amount-label,
-span.crm-price-amount-tax {
-  display: block;
-  font-weight: bold;
-}
-
-span.crm-price-amount-tax {
-  display: none;
-}
-#crm-container.crm-public .price-set-row label {
-  height: 50px;
-  width: 100px;
-  border: 3px solid #7F2063;
-  /* background: #7F2063; */
-  display: inline-block;
-  clear: both;
-  margin-left: 0px;
-  text-align: center;
-  padding: 3px;
-  font-weight: bold;
-  border-radius: 10px;
-  padding-top: 18px;
-}
 
 #crm-container.crm-public .price-set-row {
-  display: inline-block;
+ display: inline-block;
+}
+
+#crm-container.crm-public .price-set-row input {
+ display: none;
+}
+
+#crm-container.crm-public .price-set-row .crm-price-amount-amount {
+ color: white;
+}
+
+#crm-container.crm-public .price-set-row label {
+ display: inline-block;
+ background-color: green;
+ width: 100px;
+ padding: 12px 4px;
+ border-radius: 0px;
+ text-align: center;
+ font-weight: bold;
+ font-size: 16px;
+}
+
+body #crm-container.crm-public .price-set-row .crm-price-amount-amount {
+ color: white;
+}
+
+#crm-container.crm-public .price-set-row label:hover {
+ background-color: #105c7f;
+}
+
+body #crm-container.crm-public .price-set-row .highlight label {
+ color: white;
+ background-color: #b79257;
+}
+
+
+@media only screen and (max-width: 1000px) {
+ body #crm-container div.half {
+  max-width: 100%;
+  display: block;
+ }
 }
