@@ -1,0 +1,137 @@
+.half {
+  max-width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.crm-section.credit_card_exp_date-section,
+div.cvv2-section {
+  display: inline-block;
+  vertical-align: top;
+}
+div.cvv2-section {
+  max-width: 40%;
+}
+div.crm-section.credit_card_exp_date-section {
+  max-width: 55%;
+}
+
+
+
+div#intro_text {
+  padding-top: 6px;
+}
+body .crm-container .crm-section {
+  width: 100%;
+}
+body .crm-container .crm-section .label {
+ float: none;
+ width: auto;
+ text-align: left;
+}
+
+body .crm-container .crm-section .content {
+ margin: 0px;
+}
+
+\*set height of empty select2*\
+.select2-default {
+   min-height: 28px;
+}
+
+.crm-container fieldset legend {
+  color: #fff;
+  background-color: orange;
+  width: 100%;
+  font-size: 14px;
+  padding: 4px;
+  text-shadow: none;
+  border: medium none;
+}
+
+.crm-section.contribution_amount-section div.label label {
+  font-weight: bold;
+}
+
+#crm-container.crm-public #premiums-listings {
+  min-width: 100%;
+}
+
+.crm-container .big,
+div.crm-section.email-5-section div.content input,
+div.crm-section.credit_card_number-section input {
+  width: 97%;
+}
+
+.select2-container.big.crm-select2 {
+  width: 100% !important;
+}
+
+.crm-container .crm-button {
+  text-shadow: none;
+  background: none;
+  background-color: orange;
+  border: none;
+}
+
+.crm-container span.crm-button {
+  display: block;
+  float: none !important;
+  overflow: hidden;
+  padding: 1px;
+  width: 250px;
+  margin: auto;
+  height: 30px;
+}
+
+.crm-container .crm-button,
+.crm-container input.crm-form-submit {
+  text-shadow: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.crm-container .crm-section .label label {
+  font-weight: bold;
+}
+
+#crm-container.crm-public .price-set-row label {
+  height: 10px;
+  width: 300px;
+  border: 3px solid black;
+}
+
+div.crm-section.other_amount-section,
+span.crm-price-amount-label-separator,
+#crm-container.crm-public .price-set-row input[type='radio'] {
+  display: none;
+}
+
+#crm-container.crm-public .price-set-row .crm-price-amount-label,
+span.crm-price-amount-label,
+span.crm-price-amount-tax {
+  display: block;
+  font-weight: bold;
+}
+
+span.crm-price-amount-tax {
+  display: none;
+}
+#crm-container.crm-public .price-set-row label {
+  height: 50px;
+  width: 100px;
+  border: 3px solid #7F2063;
+  /* background: #7F2063; */
+  display: inline-block;
+  clear: both;
+  margin-left: 0px;
+  text-align: center;
+  padding: 3px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 18px;
+}
+
+#crm-container.crm-public .price-set-row {
+  display: inline-block;
+}
