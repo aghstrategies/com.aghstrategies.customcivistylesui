@@ -16,8 +16,6 @@ div.crm-section.credit_card_exp_date-section {
   max-width: 55%;
 }
 
-
-
 div#intro_text {
   padding: 10px;
   padding-top: 6px;
@@ -42,7 +40,8 @@ body .crm-container .crm-section .content {
 
 body .crm-container fieldset legend {
   color: #fff;
-  background-color: orange;
+  background-color: #004B60;
+  border-top: 4px solid teal;
   width: 100%;
   font-size: 14px;
   padding: 4px;
@@ -108,14 +107,14 @@ div.select2-container.crm-select2.crm-form-select,
  padding-left: 0px;
  font-weight: 600;
  font-size: 16px;
- background-color: #0a3a50;
+ background-color: #004B60;
  color: white;
  padding: 10px 30px;
  text-align: center;
 }
 
 .crm-container .crm-submit-buttons .crm-button.crm-i-button input.crm-form-submit:hover {
- background-color: #105c7f;
+ background-color: teal;
 }
 .crm-submit-buttons i.crm-i.fa-check {
  display: none;
@@ -136,7 +135,8 @@ div.select2-container.crm-select2.crm-form-select,
 
 #crm-container.crm-public .price-set-row label {
  display: inline-block;
- background-color: green;
+ background-color: #004B60;
+ border: solid 4px teal;
  width: 100px;
  padding: 12px 4px;
  border-radius: 0px;
@@ -150,12 +150,13 @@ body #crm-container.crm-public .price-set-row .crm-price-amount-amount {
 }
 
 #crm-container.crm-public .price-set-row label:hover {
- background-color: #105c7f;
+  background-color: teal;
+  border: solid 4px #004B60;
 }
 
 body #crm-container.crm-public .price-set-row .highlight label {
  color: white;
- background-color: #b79257;
+ background-color: teal;
 }
 
 
