@@ -68,6 +68,9 @@ div.crm-section.credit_card_number-section input {
 }
 
 
+body .crm-container .crm-section .label label {
+ font-weight: bold;
+}
 
 
 #crm-container.crm-public input[type="text"].crm-form-text,
@@ -120,19 +123,14 @@ div.select2-container.crm-select2.crm-form-select,
  display: none;
 }
 
-
-#crm-container.crm-public .price-set-row {
- display: inline-block;
-}
-
-#crm-container.crm-public .price-set-row input {
+#crm-container.crm-public .price-set-row input[type="radio"] {
  display: none;
 }
 
 #crm-container.crm-public .price-set-row label {
- display: inline-block;
+ display: block;
  background-color: #004B60;
- width: 100px;
+ width: 100%;
  padding: 12px 4px;
  border-radius: 3px;
  text-align: center;
@@ -146,14 +144,42 @@ div.select2-container.crm-select2.crm-form-select,
 }
 
 body #crm-container.crm-public .price-set-row .highlight label {
-  background: #95C5C5;
+  background: teal;
 }
 
+#crm-container.crm-public .price-set-row .crm-price-amount-label-separator,
+body #crm-container.crm-public .price-set-row .crm-price-amount-label,
 body #crm-container.crm-public .price-set-row .crm-price-amount-amount,
-#crm-container.crm-public .price-set-row .highlight .crm-price-amount-amount {
+body #crm-container.crm-public .price-set-row .highlight label,
+body #crm-container.crm-public .price-set-row .highlight .crm-price-amount-label,
+body #crm-container.crm-public .price-set-row .highlight .crm-price-amount-amount {
  color: #fff;
-} 
+ display: block;
+}
+ 
+#crm-container.crm-public .price-set-row .crm-price-amount-label-separator {
+ color : #95C5C5;
+}
 
+div.select2-container.crm-select2 a {
+ line-height: 35px;
+}
+
+div.other_amount-section .label {
+ display: none;
+}
+
+span.price-set-option-content input[type="text"] {
+ display: none;
+}
+
+span.price-set-option-content.highlight input[type="text"] {
+ display: block;
+}
+
+.price-set-row input.crm-form-radio + label {
+ margin-left: 0px;
+}
 @media only screen and (max-width: 1000px) {
  body #crm-container div.half {
   max-width: 100%;
