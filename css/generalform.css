@@ -1,11 +1,92 @@
+div.select2-container.crm-select2 a {
+ line-height: 35px;
+}
+
+div.select2-container.crm-select2 {
+ width: 362px !important;
+}
+
+.addon.fa.fa-calendar {
+ display: none;
+}
+
+.crm-section div.content textarea {
+ width: 360px;
+ border-radius: 5px;
+}
+
+#crm-container.crm-public input[type="text"].crm-form-text,
+.crm-container .big,
+div.crm-section.email-5-section div.content input,
+div.crm-section.credit_card_number-section input {
+  width: 350px;
+}
+
+#crm-container.crm-public input[type="text"].crm-form-text.crm-form-date.hasDatepicker {
+ width: 350px !important;
+}
+#crm-container.crm-public input[type="text"].crm-form-text#cvv2 {
+ width: 100px;
+}
+
+/*buttons*/
+.crm-container .crm-submit-buttons .crm-button {
+ background: none;
+ border: none;
+ text-align: center;
+ float: none !important;
+}
+
+.crm-container .crm-submit-buttons input.crm-form-submit {
+ text-shadow: none;
+}
+
+.crm-container span.crm-button {
+ float: none !important;
+}
+
+.crm-container .crm-submit-buttons .crm-button.crm-i-button input.crm-form-submit {
+ padding-left: 0px;
+ font-weight: 600;
+ font-size: 16px;
+ background-color: #004B60;
+ color: white;
+ padding: 10px 30px;
+ text-align: center;
+}
+
+.crm-container .crm-submit-buttons .crm-button.crm-i-button input.crm-form-submit:hover {
+ background-color: teal;
+}
+.crm-submit-buttons i.crm-i.fa-check {
+ display: none;
+}
+
+
 /*floats civi form labels above inputs instead of next to them on small screens*/
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 1100px) {
   body .crm-container .crm-section .label {
    float: none;
    width: auto;
    text-align: left;
   }
+
+  body .crm-container .crm-section .label label {
+   font-weight: bold;
+  }
+
+
   body .crm-container .crm-section .content {
    margin: 0px;
+  }
+
+  section.region-sidebar-first.sidebar,
+  .container div#content {
+    display:block;
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: -100%;
+    clear: both;
   }
 }
