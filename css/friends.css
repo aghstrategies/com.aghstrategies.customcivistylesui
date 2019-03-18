@@ -73,10 +73,10 @@ body .crm-container .crm-section .label label {
 }
 
 
-#crm-container.crm-public input[type="text"].crm-form-text,
-.crm-container .big,
-div.crm-section.email-5-section div.content input,
-div.crm-section.credit_card_number-section input {
+body #crm-container.crm-public input[type="text"].crm-form-text,
+body .crm-container .big,
+body div.crm-section.email-5-section div.content input,
+body div.crm-section.credit_card_number-section input {
   width: 97%;
 }
 
