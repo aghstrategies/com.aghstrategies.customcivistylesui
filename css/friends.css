@@ -129,36 +129,30 @@ div.select2-container.crm-select2.crm-form-select,
  display: none;
 }
 
-#crm-container.crm-public .price-set-row .crm-price-amount-amount {
- color: white;
-}
-
 #crm-container.crm-public .price-set-row label {
  display: inline-block;
  background-color: #004B60;
- border: solid 4px teal;
  width: 100px;
  padding: 12px 4px;
- border-radius: 0px;
+ border-radius: 3px;
  text-align: center;
  font-weight: bold;
  font-size: 16px;
-}
-
-body #crm-container.crm-public .price-set-row .crm-price-amount-amount {
  color: white;
 }
 
 #crm-container.crm-public .price-set-row label:hover {
-  background-color: teal;
-  border: solid 4px #004B60;
+  background: teal;
 }
 
 body #crm-container.crm-public .price-set-row .highlight label {
- color: white;
- background-color: teal;
+  background: #95C5C5;
 }
 
+body #crm-container.crm-public .price-set-row .crm-price-amount-amount,
+#crm-container.crm-public .price-set-row .highlight .crm-price-amount-amount {
+ color: #fff;
+} 
 
 @media only screen and (max-width: 1000px) {
  body #crm-container div.half {
