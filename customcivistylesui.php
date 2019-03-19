@@ -21,7 +21,7 @@ function customcivistylesui_civicrm_buildform($formName, &$form) {
   if (!empty($pages['values'][0]['customcivistylesui_pricesetbuttonpages'])) {
     $pages = $pages['values'][0]['customcivistylesui_pricesetbuttonpages'];
   }
-  if ($formName == 'CRM_Contribute_Form_Contribution_Main') {
+  if ($formName == 'CRM_Contribute_Form_Contribution_Main' || $formName == 'CRM_Event_Form_Registration_Register') {
     // For all civicrm forms
     CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/generalform.css');
     if (in_array($form->getVar('_id'), $pages)) {
