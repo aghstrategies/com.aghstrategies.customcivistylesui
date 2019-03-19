@@ -1,3 +1,60 @@
+input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 3px solid #bbbbbb;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: #bbbbbb;
+  padding: 3px;
+}
+
+input[type="checkbox"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding: 3px;
+  /* background-color only for content */
+  border: 3px solid #bbbbbb;
+  color: #bbbbbb;
+  content: "\f00c";
+  font-family: FontAwesome, "Font Awesome 5 Free";
+}
+
+/* appearance for checked radiobutton */
+input[type="checkbox"]:checked {
+  color: #bbbbbb;
+  content: "\f00c";
+  padding: 3px;
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+
+
+/* optional styles, I'm using this for centering radiobuttons */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 div.select2-container.crm-select2 a {
  line-height: 35px;
 }
