@@ -16,37 +16,36 @@ input[type="radio"] {
 }
 
 /* appearance for checked radiobutton */
-input[type="radio"]:checked {
-  background-color: #bbbbbb;
-  padding: 3px;
+body input[type=checkbox] {
+         position: relative;
+	 cursor: pointer;
+         margin-right: 10px;
+    }
+    input[type=checkbox]:before {
+         content: "";
+         display: block;
+         position: absolute;
+         width: 22px;
+         height: 22px;
+         border: 3px solid #bbbbbb;
+         border-radius: 0%;
+         background-color: white;
 }
-
-input[type="checkbox"] {
-  /* remove standard background appearance */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* create custom radiobutton appearance */
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  padding: 3px;
-  /* background-color only for content */
-  border: 3px solid #bbbbbb;
-  color: #bbbbbb;
-  content: "\f00c";
-  font-family: FontAwesome, "Font Awesome 5 Free";
+    input[type=checkbox]:checked:after {
+         content: "\f00c";
+         display: block;
+         position: absolute;
+         top: 2px;
+         left: 3px;
+         color: #bbbbbb;
+         font-size: 17px;
 }
-
 /* appearance for checked radiobutton */
 input[type="checkbox"]:checked {
-  color: #bbbbbb;
-  content: "\f00c";
-  padding: 3px;
-  font-family: FontAwesome;
-  display: inline-block;
+  background-color: #bbbbbb;
+  font-family: 'FontAwesome';
+  content: "/f14a";
 }
-
 
 
 /* optional styles, I'm using this for centering radiobuttons */
