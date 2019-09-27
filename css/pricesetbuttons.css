@@ -1,5 +1,17 @@
 /*css for pages identified on settings page*/
 
+/*Do not style checkbox for processing fees*/
+.price-set-row.i_would_like_to_cover_credit_card_processing_fees_-row1 {
+ width: 100%;
+ border: none;
+ text-align: left;
+ height: inherit;
+}
+
+.price-set-row.i_would_like_to_cover_credit_card_processing_fees_-row1:hover {
+ background: none;
+}
+
 /*floats label above amounts*/
 #crm-container .crm-section.featured-boxes>.label {
   float: none;
