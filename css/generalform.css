@@ -61,10 +61,6 @@ input[type=checkbox]:checked:after {
   align-items: center;
 }
 
-div.select2-container.crm-select2 a {
- line-height: 35px;
-}
-
 div.select2-container.crm-select2 {
  width: 362px !important;
 }
@@ -123,7 +119,6 @@ div.crm-section.credit_card_number-section input {
 .crm-submit-buttons i.crm-i.fa-check {
  display: none;
 }
-
 
 /*floats civi form labels above inputs instead of next to them on small screens*/
 @media screen and (max-width: 1100px) {

@@ -160,10 +160,6 @@ body #crm-container.crm-public .price-set-row .highlight .crm-price-amount-amoun
  color : #95C5C5;
 }
 
-div.select2-container.crm-select2 a {
- line-height: 35px;
-}
-
 div.other_amount-section .label {
  display: none;
 }
