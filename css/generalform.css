@@ -95,6 +95,10 @@ div.crm-section.credit_card_number-section input {
  float: none !important;
 }
 
+.crm-container.crm-public .crm-submit-buttons {
+ height: 40px;
+}
+
 .crm-container.crm-public a.button, .crm-container a.button:link,
 .crm-container.crm-public .crm-submit-buttons button.crm-form-submit {
  text-shadow: none;
@@ -114,11 +118,7 @@ div.crm-section.credit_card_number-section input {
  color: white;
  padding: 10px 30px;
  text-align: center;
-}
-
-.crm-container a.button, .crm-container a.button:link,
-.crm-container.crm-public .crm-button {
- background-color: #004B60;
+ display: inline-block;
 }
 
 .crm-container a.button, .crm-container a.button:hover,
