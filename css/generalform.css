@@ -88,45 +88,6 @@ div.crm-section.credit_card_number-section input {
  width: 100px;
 }
 
-/*buttons*/
-.crm-container .crm-submit-buttons .crm-button {
- border: none;
- text-align: center;
- float: none !important;
-}
-
-.crm-container.crm-public .crm-submit-buttons {
- height: 40px;
-}
-
-.crm-container.crm-public a.button, .crm-container a.button:link,
-.crm-container.crm-public .crm-submit-buttons button.crm-form-submit {
- text-shadow: none;
- border: none;
-}
-
-.crm-container span.crm-button {
- float: none !important;
-}
-
-.crm-container a.button, .crm-container a.button:link,
-.crm-container.crm-public .crm-button {
- padding-left: 0px;
- font-weight: 600;
- font-size: 16px;
- background-color: #004B60;
- color: white;
- padding: 10px 30px;
- text-align: center;
- display: inline-block;
-}
-
-.crm-container a.button, .crm-container a.button:hover,
-.crm-container.crm-public .crm-button:hover {
- background-color: teal;
-}
-
-
 /*floats civi form labels above inputs instead of next to them on small screens*/
 @media screen and (max-width: 1100px) {
   body .crm-container .crm-section .label {

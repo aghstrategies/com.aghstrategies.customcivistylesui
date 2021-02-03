@@ -8,6 +8,7 @@ require_once 'customcivistylesui.civix.php';
  * @param  object $form     form object
  */
 function customcivistylesui_civicrm_buildform($formName, &$form) {
+  CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/buttons.css');    
   try {
     $pages = civicrm_api3('Setting', 'get', array(
       'sequential' => 1,
