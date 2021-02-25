@@ -117,6 +117,7 @@ body .crm-container fieldset legend {
   padding-left: 10px;
 }
 
+.crm-container input.crm-form-submit,
 .crm-container .crm-button {
   background: #077e99;
   text-shadow: none;
