@@ -28,8 +28,11 @@ body .crm-container .crm-section .label {
  margin-left: 0px;
 }
 
+div#crm-main-content-wrapper {
+  padding-left: 3px;
+}
+
 div#intro_text {
-  padding: 10px;
   padding-top: 6px;
 }
 
@@ -67,10 +70,6 @@ body #crm-container.crm-public .price-set-row .highlight .crm-price-amount-amoun
  display: block;
 }
 
-#crm-container.crm-public .price-set-row .crm-price-amount-label-separator {
- color : #95C5C5;
-}
-
 div.other_amount-section .label {
  display: none;
 }
@@ -103,5 +102,5 @@ body .crm-container.crm-public .crm-section .content {
 }
 
 .crm-container.crm-public fieldset legend {
-  badding-left: 0px;
+  padding-left: 0px;
 }
