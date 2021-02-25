@@ -101,6 +101,18 @@ body .crm-container.crm-public .crm-section .content {
  margin: 0px;
 }
 
-.crm-container.crm-public fieldset legend {
+/* .crm-container.crm-public fieldset legend {
   padding-left: 0px;
+} */
+
+body .crm-container fieldset legend {
+  color: #fff;
+  background-color: #74a842;
+  width: 100%;
+  font-size: 14px;
+  padding: 4px;
+  text-shadow: none;
+  border: medium none;
+  border-radius: 3px;
+  padding-left: 10px;
 }
