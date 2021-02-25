@@ -39,7 +39,7 @@ div#intro_text {
 
 #crm-container.crm-public .price-set-row label {
  display: inline-block;
- background-color: #004B60;
+ background-color: #077e99;
  width: 100px;
  padding: 12px 4px;
  border-radius: 3px;
@@ -50,11 +50,11 @@ div#intro_text {
 }
 
 #crm-container.crm-public .price-set-row label:hover {
-  background: teal;
+  background: #74a842;
 }
 
 body #crm-container.crm-public .price-set-row .highlight label {
-  background: teal;
+  background: #74a842;
 }
 
 #crm-container.crm-public .price-set-row .crm-price-amount-label-separator,
@@ -87,18 +87,21 @@ span.price-set-option-content.highlight input[type="text"] {
   margin-left: 0px;
 }
 
-  body .crm-container.crm-public .crm-section .label {
-   float: none;
-   width: auto;
-   text-align: left;
-  }
+body .crm-container.crm-public .crm-section .label {
+ float: none;
+ width: auto;
+ text-align: left;
+}
 
-  body .crm-container.crm-public .crm-section .label label {
-   font-weight: bold;
-  }
+body .crm-container.crm-public .crm-section .label label {
+ font-weight: bold;
+}
 
 
-  body .crm-container.crm-public .crm-section .content {
-   margin: 0px;
-  }
+body .crm-container.crm-public .crm-section .content {
+ margin: 0px;
+}
 
+.crm-container.crm-public fieldset legend {
+  badding-left: 0px;
+}
