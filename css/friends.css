@@ -1,13 +1,27 @@
+body #crm-container.crm-public .content .price-set-row .highlight label,
+div.crm-section .content.membership_amount-content,
 div.price-set-row,
+div.crm-section.membership_amount-section,
 div.crm-section.contribution_amount-section,
 div.crm-section.other_amount-section,
 div.content.other_amount-content {
   display: inline-block;
 }
 
+
+  body .crm-container.crm-public #priceset .crm-section .label {
+   float: none;
+   width: auto;
+   text-align: left;
+  }
+
+  body .crm-container.crm-public .crm-section #priceset .content {
+   margin: 0px;
+  }
+
 div.content.other_amount-content input {
  width: 80px;
- height: 40px;
+ height: 34px;
 }
 
 body .crm-container .crm-section .label {
@@ -17,16 +31,6 @@ body .crm-container .crm-section .label {
 div#intro_text {
   padding: 10px;
   padding-top: 6px;
-}
-
-body .crm-container .crm-section .label {
- float: none;
- width: auto;
- text-align: left;
-}
-
-body .crm-container .crm-section .content {
- margin: 0px;
 }
 
 #crm-container.crm-public .price-set-row input[type="radio"] {
@@ -82,3 +86,19 @@ span.price-set-option-content.highlight input[type="text"] {
 .price-set-row input.crm-form-radio + label {
   margin-left: 0px;
 }
+
+  body .crm-container.crm-public .crm-section .label {
+   float: none;
+   width: auto;
+   text-align: left;
+  }
+
+  body .crm-container.crm-public .crm-section .label label {
+   font-weight: bold;
+  }
+
+
+  body .crm-container.crm-public .crm-section .content {
+   margin: 0px;
+  }
+
