@@ -1,25 +1,17 @@
-/* div.price-set-row {
- display: inline-block;
-} */
+div.price-set-row,
+div.crm-section.contribution_amount-section,
+div.crm-section.other_amount-section,
+div.content.other_amount-content {
+  display: inline-block;
+}
+
+div.content.other_amount-content input {
+ width: 80px;
+ height: 40px;
+}
 
 body .crm-container .crm-section .label {
  margin-left: 0px;
-}
-
-.crm-container .crm-button {
- background: none;
-}
-
-div.crm-section.credit_card_exp_date-section,
-div.cvv2-section {
-  display: inline-block;
-  vertical-align: top;
-}
-div.cvv2-section {
-  max-width: 40%;
-}
-div.crm-section.credit_card_exp_date-section {
-  max-width: 55%;
 }
 
 div#intro_text {
@@ -37,50 +29,6 @@ body .crm-container .crm-section .content {
  margin: 0px;
 }
 
-.crm-section.contribution_amount-section div.label label {
-  font-weight: bold;
-}
-
-body .crm-container .crm-section .label label {
- font-weight: bold;
-}
-
-#crm-container.crm-public input[type="text"][name="cvv2"].crm-form-text {
- width: 100px;
-}
-
-
-.crm-container .crm-submit-buttons .crm-button {
- border: none;
- text-align: center;
- float: none !important;
-}
-
-.crm-container .crm-submit-buttons input.crm-form-submit {
- text-shadow: none;
-}
-
-.crm-container span.crm-button {
- float: none !important;
-}
-
-.crm-container .crm-submit-buttons .crm-button.crm-i-button input.crm-form-submit {
- padding-left: 0px;
- font-weight: 600;
- font-size: 16px;
- background-color: #004B60;
- color: white;
- padding: 10px 30px;
- text-align: center;
-}
-
-.crm-container .crm-submit-buttons .crm-button.crm-i-button input.crm-form-submit:hover {
- background-color: teal;
-}
-.crm-submit-buttons i.crm-i.fa-check {
- display: none;
-}
-
 #crm-container.crm-public .price-set-row input[type="radio"] {
  display: none;
 }
@@ -88,7 +36,7 @@ body .crm-container .crm-section .label label {
 #crm-container.crm-public .price-set-row label {
  display: inline-block;
  background-color: #004B60;
- width: 100%;
+ width: 100px;
  padding: 12px 4px;
  border-radius: 3px;
  text-align: center;
