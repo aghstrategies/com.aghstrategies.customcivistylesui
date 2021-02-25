@@ -1,8 +1,6 @@
-.half {
-  max-width: 50%;
-  display: inline-block;
-  vertical-align: top;
-}
+/* div.price-set-row {
+ display: inline-block;
+} */
 
 div.crm-section.credit_card_exp_date-section,
 div.cvv2-section {
@@ -20,6 +18,7 @@ div#intro_text {
   padding: 10px;
   padding-top: 6px;
 }
+
 body .crm-container .crm-section {
   width: 100%;
 }
@@ -33,7 +32,7 @@ body .crm-container .crm-section .content {
  margin: 0px;
 }
 
-\*set height of empty select2*\
+\* set height of empty select2 *\
 .select2-default {
    min-height: 28px;
 }
@@ -127,7 +126,7 @@ div.select2-container.crm-select2.crm-form-select,
 }
 
 #crm-container.crm-public .price-set-row label {
- display: block;
+ display: inline-block;
  background-color: #004B60;
  width: 100%;
  padding: 12px 4px;
@@ -155,7 +154,7 @@ body #crm-container.crm-public .price-set-row .highlight .crm-price-amount-amoun
  color: #fff;
  display: block;
 }
- 
+
 #crm-container.crm-public .price-set-row .crm-price-amount-label-separator {
  color : #95C5C5;
 }
@@ -173,11 +172,5 @@ span.price-set-option-content.highlight input[type="text"] {
 }
 
 .price-set-row input.crm-form-radio + label {
- margin-left: 0px;
-}
-@media only screen and (max-width: 1000px) {
- body #crm-container div.half {
-  max-width: 100%;
-  display: block;
- }
+  margin-left: 0px;
 }
