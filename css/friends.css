@@ -116,3 +116,15 @@ body .crm-container fieldset legend {
   border-radius: 3px;
   padding-left: 10px;
 }
+
+.crm-container .crm-button {
+  background: #077e99;
+  text-shadow: none;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.crm-container .crm-button:hover {
+  background: #74a842;
+}
