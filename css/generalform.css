@@ -1,117 +1,19 @@
-body input[type="radio"] {
-  /* remove standard background appearance */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* create custom radiobutton appearance */
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  padding: 3px;
-  /* background-color only for content */
-  background-clip: content-box;
-  border: 2px solid #444444;
-  background-color: #fff;
-  border-radius: 50%;
-  margin: 0px;
-}
-
-/* appearance for checked radiobutton */
-input[type="radio"]:checked {
-  background-color: #222222;
-  border: 2px solid #222222;
-  padding: 3px;
-}
-
-body input[type=checkbox] {
-  position: relative;
-  cursor: pointer;
-  margin-top: 0px;
-}
-    
-input[type=checkbox]:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border: 2px solid #444444;
-  border-radius: 0%;
-  background-color: white;
-}
-
-input[type=checkbox]:checked:before {
-  border: 2px solid #222222;
-}   
-
-input[type=checkbox]:checked:after {
-  content: "\f00c";
-  font-family: 'FontAwesome';
-  display: block;
-  position: absolute;
-  top: 2px;
-  left: 3px;
-  color: #222222;
-  font-size: 10px;
-}
-
-/* optional styles, I'm using this for centering radiobuttons */
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-div.select2-container.crm-select2 {
- width: 362px !important;
-}
-
-.addon.fa.fa-calendar {
- display: none;
-}
-
-.crm-section div.content textarea {
- width: 360px;
- border-radius: 5px;
-}
-
-#crm-container.crm-public input[type="text"].crm-form-text,
-.crm-container .big,
-div.crm-section.email-5-section div.content input,
-div.crm-section.credit_card_number-section input {
-  width: 350px;
-}
-
-#crm-container.crm-public input[type="text"].crm-form-text.crm-form-date.hasDatepicker {
- width: 350px !important;
-}
-#crm-container.crm-public input[type="text"].crm-form-text#cvv2 {
- width: 100px;
-}
 
 /*floats civi form labels above inputs instead of next to them on small screens*/
 @media screen and (max-width: 1100px) {
-  body .crm-container .crm-section .label {
+  body .crm-container.crm-public .crm-section .label {
    float: none;
    width: auto;
    text-align: left;
   }
 
-  body .crm-container .crm-section .label label {
+  body .crm-container.crm-public .crm-section .label label {
    font-weight: bold;
   }
 
 
-  body .crm-container .crm-section .content {
+  body .crm-container.crm-public .crm-section .content {
    margin: 0px;
   }
 
-  section.region-sidebar-first.sidebar,
-  .container div#content {
-    display:block;
-    float: none;
-    width: 100%;
-    margin-left: 0px;
-    margin-right: -100%;
-    clear: both;
-  }
 }

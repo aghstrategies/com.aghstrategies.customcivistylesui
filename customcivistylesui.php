@@ -8,6 +8,9 @@ require_once 'customcivistylesui.civix.php';
  * @param  object $form     form object
  */
 function customcivistylesui_civicrm_buildform($formName, &$form) {
+  // General Styles for All CiviCRM forms
+  CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/generalform.css');
+
   try {
     $pages = civicrm_api3('Setting', 'get', array(
       'sequential' => 1,
@@ -24,12 +27,7 @@ function customcivistylesui_civicrm_buildform($formName, &$form) {
   if ($formName == 'CRM_Event_Form_Registration_Confirm' || $formName == 'CRM_Event_Form_Registration_ThankYou' || $formName == 'CRM_Contribute_Form_Contribution_ThankYou' || $formName == 'CRM_Contribute_Form_Contribution_Confirm'|| $formName == 'CRM_Contribute_Form_Contribution_Main' || $formName == 'CRM_Event_Form_Registration_Register') {
     // For all civicrm forms
 	  if (in_array($form->getVar('_id'), $pages)) {
-		      CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/generalform.css');
-
-      CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/buttons.css');
       CRM_Core_Resources::singleton()->addScriptFile('com.aghstrategies.customcivistylesui', 'js/reorganize.js');
-      // CRM_Core_Resources::singleton()->addScriptFile('com.aghstrategies.customcivistylesui', 'js/pricesetbuttons.js');
-      // CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/pricesetbuttons.css');
       CRM_Core_Resources::singleton()->addStyleFile('com.aghstrategies.customcivistylesui', 'css/friends.css');
     }
   }
