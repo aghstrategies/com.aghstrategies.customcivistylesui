@@ -1,5 +1,5 @@
 /*buttons*/
-.crm-container .crm-submit-buttons .crm-button {
+.crm-container.crm-public .crm-submit-buttons .crm-button {
  border: none;
  text-align: center;
  float: none !important;
