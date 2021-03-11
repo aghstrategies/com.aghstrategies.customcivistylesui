@@ -164,3 +164,25 @@ body .crm-container fieldset legend {
  width: 146px;
  padding-top: 0px;
 }
+
+@media only screen and (max-width: 1100px) {
+ div#intro_text {
+  width: 100%;
+ }
+
+ .crm-container #civicrm-footer.crm-public-footer {
+   display: none;
+ }
+
+ div.crm-contribution-main-form-block {
+   float: left;
+   width: 100%;
+   padding:10px;
+ }
+.crm-section div.crm-select2 {
+ width: 100% !important;
+}
+
+
+
+}
