@@ -1,3 +1,18 @@
+div#intro_text {
+ float: left;
+ width: 500px;
+ padding: 0px 40px 10px 0px;
+}
+
+.crm-container #civicrm-footer.crm-public-footer {
+ text-align: center;
+}
+div.crm-contribution-main-form-block {
+ float: right;
+ width: 500px;
+ padding:10px;
+}
+
 body #crm-container.crm-public .content .price-set-row .highlight label,
 div.crm-section .content.membership_amount-content,
 div.price-set-row,
@@ -43,7 +58,7 @@ div#intro_text {
 #crm-container.crm-public .price-set-row label {
  display: inline-block;
  background-color: #077e99;
- width: 100px;
+ width: 157px;
  padding: 12px 4px;
  border-radius: 3px;
  text-align: center;
@@ -93,7 +108,7 @@ body .crm-container.crm-public .crm-section .label {
 }
 
 body .crm-container.crm-public .crm-section .label label {
- font-weight: bold;
+ font-weight: 600;
 }
 
 
@@ -101,20 +116,25 @@ body .crm-container.crm-public .crm-section .content {
  margin: 0px;
 }
 
-/* .crm-container.crm-public fieldset legend {
-  padding-left: 0px;
-} */
-
 body .crm-container fieldset legend {
-  color: #fff;
-  background-color: #74a842;
-  width: 100%;
-  font-size: 14px;
+  width: 500px;
+  font-size: 125%;
+  font-weight: 600;
   padding: 4px;
   text-shadow: none;
   border: medium none;
   border-radius: 3px;
-  padding-left: 10px;
+  padding-left: 0px;
+  padding-top: 10px;
+  color: #58595b;
+}
+
+.crm-section div.crm-select2 {
+ width: 484px !important;
+}
+
+.crm-section input[type='text']:not(#cvv2) {
+ width: 470px;
 }
 
 .crm-container input.crm-form-submit,
@@ -123,9 +143,24 @@ body .crm-container fieldset legend {
   text-shadow: none;
   border: none;
   font-weight: bold;
-  padding: 10px;
+}
+
+.crm-container .crm-button input.crm-form-submit {
+  padding-right: 1.6em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 125%;
+}
+
+.crm-container .crm-button.crm-i-button i {
+ display: none;
 }
 
 .crm-container .crm-button:hover {
   background: #74a842;
+}
+
+#crm-container.crm-public .content.other_amount-content {
+ width: 146px;
+ padding-top: 0px;
 }
