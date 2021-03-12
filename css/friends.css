@@ -57,7 +57,7 @@ div#intro_text {
 
 #crm-container.crm-public .price-set-row label {
  display: inline-block;
- background-color: #077e99;
+ background-color: #006E82;
  width: 157px;
  padding: 12px 4px;
  border-radius: 3px;
@@ -68,11 +68,11 @@ div#intro_text {
 }
 
 #crm-container.crm-public .price-set-row label:hover {
-  background: #74a842;
+  background: #2BB673;
 }
 
 body #crm-container.crm-public .price-set-row .highlight label {
-  background: #74a842;
+  background: #F2C318;
 }
 
 #crm-container.crm-public .price-set-row .crm-price-amount-label-separator,
@@ -126,7 +126,7 @@ body .crm-container fieldset legend {
   border-radius: 3px;
   padding-left: 0px;
   padding-top: 10px;
-  color: #58595b;
+  color: #58595B;
 }
 
 .crm-section div.crm-select2 {
@@ -139,7 +139,7 @@ body .crm-container fieldset legend {
 
 .crm-container input.crm-form-submit,
 .crm-container .crm-button {
-  background: #077e99;
+  background: #006E82;
   text-shadow: none;
   border: none;
   font-weight: bold;
@@ -157,7 +157,7 @@ body .crm-container fieldset legend {
 }
 
 .crm-container .crm-button:hover {
-  background: #74a842;
+  background: #2BB673;
 }
 
 #crm-container.crm-public .content.other_amount-content {
