@@ -1,3 +1,7 @@
+#crm-container.crm-public #crm-submit-buttons {
+ margin-bottom: 30px;
+}
+
 div#intro_text {
  float: left;
  width: 500px;
