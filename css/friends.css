@@ -51,6 +51,7 @@ div#intro_text {
   padding-top: 6px;
 }
 
+div.crm-public-footer#civicrm-footer,
 #crm-container.crm-public .price-set-row input[type="radio"] {
  display: none;
 }
@@ -165,7 +166,7 @@ body .crm-container fieldset legend {
  padding-top: 0px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1150px) {
  div#intro_text {
   width: 100%;
  }
@@ -182,7 +183,25 @@ body .crm-container fieldset legend {
 .crm-section div.crm-select2 {
  width: 100% !important;
 }
+}
 
+@media only screen and (min-width: 1900px) {
+ div#intro_text {
+  width: 100%;
+ }
+
+ .crm-container #civicrm-footer.crm-public-footer {
+   display: none;
+ }
+
+ div.crm-contribution-main-form-block {
+   float: left;
+   width: 100%;
+   padding:10px;
+ }
+.crm-section div.crm-select2 {
+ width: 100% !important;
+}
 
 
 }
