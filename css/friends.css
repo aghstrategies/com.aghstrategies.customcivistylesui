@@ -2,6 +2,19 @@
  margin-bottom: 30px;
 }
 
+.one-sidebar.sidebar-first .region-main-inner .region-content {
+ margin-left: 0px;
+ width: 100%;
+}
+
+section.region-sidebar-first {
+ display: none;
+}
+
+#breadcrumbs {
+ left: 0px;
+}
+
 div#intro_text {
  float: left;
  width: 500px;
