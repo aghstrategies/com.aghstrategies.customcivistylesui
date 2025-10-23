@@ -14,7 +14,7 @@ function customcivistylesui_civicrm_buildform($formName, &$form) {
       'return' => "customcivistylesui_pricesetbuttonpages",
     ));
   }
-  catch (CiviCRM_API3_Exception $e) {
+  catch (CRM_Core_Exception $e) {
     $error = $e->getMessage();
     CRM_Core_Error::debug_log_message(t('API Error: %1', array(1 => $error, 'domain' => 'com.aghstrategies.customcivistylesui')));
   }

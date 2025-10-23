@@ -43,7 +43,7 @@ class CRM_Customcivistylesui_Form_Settings extends CRM_Core_Form {
       $result = civicrm_api3('Setting', 'create', array('customcivistylesui_pricesetbuttonpages' => $values['pricesetbuttonpages']));
       CRM_Core_Session::setStatus(ts('You have successfully updated the civicontribution pages to style the price set as buttons.', array('domain' => 'com.aghstrategies.customcivistylesui')), 'Settings saved', 'success');
     }
-    catch (CiviCRM_API3_Exception $e) {
+    catch (CRM_Core_Exception $e) {
       $error = $e->getMessage();
       CRM_Core_Error::debug_log_message(t('API Error: %1', array(1 => $error, 'domain' => 'com.aghstrategies.customcivistylesui')));
       CRM_Core_Session::setStatus(ts('Error saving pages for priceset buttons', array('domain' => 'com.aghstrategies.customcivistylesui')), 'Error', 'error');
