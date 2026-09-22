@@ -9,14 +9,14 @@ require_once 'customcivistylesui.civix.php';
  */
 function customcivistylesui_civicrm_buildform($formName, &$form) {
   try {
-    $pages = civicrm_api3('Setting', 'get', array(
+    $pages = civicrm_api3('Setting', 'get', [
       'sequential' => 1,
       'return' => "customcivistylesui_pricesetbuttonpages",
-    ));
+    ]);
   }
   catch (CRM_Core_Exception $e) {
     $error = $e->getMessage();
-    CRM_Core_Error::debug_log_message(t('API Error: %1', array(1 => $error, 'domain' => 'com.aghstrategies.customcivistylesui')));
+    CRM_Core_Error::debug_log_message(t('API Error: %1', [1 => $error, 'domain' => 'com.aghstrategies.customcivistylesui']));
   }
   if (!empty($pages['values'][0]['customcivistylesui_pricesetbuttonpages'])) {
     $pages = $pages['values'][0]['customcivistylesui_pricesetbuttonpages'];
