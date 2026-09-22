@@ -7,8 +7,8 @@
  */
 
 
-return array(
-  'customcivistylesui_pricesetbuttonpages' => array(
+return [
+  'customcivistylesui_pricesetbuttonpages' => [
     'group_name' => 'Custom Styling for Civi Contribution Pages',
     'group' => 'customcivistylesui',
     'name' => 'customcivistylesui_pricesetbuttonpages',
@@ -19,8 +19,8 @@ return array(
     'is_contact' => 0,
     'description' => 'Array of Pages to apply price set buttons styling to',
     'help_text' => 'civicontribute page(s) for which pricesets should be displayed as styled buttons',
-  ),
-  'customcivistylesui_responsive' => array(
+  ],
+  'customcivistylesui_responsive' => [
     'group_name' => 'Custom Styling for Civi Contribution Pages',
     'group' => 'customcivistylesui',
     'name' => 'customcivistylesui_responsive',
@@ -31,8 +31,8 @@ return array(
     'is_contact' => 0,
     'description' => 'This enables a stylesheet that makes lables be displayed over inputs on small screens',
     'help_text' => 'Sunlight Foundation API Key',
-  ),
-  'customcivistylesui_responsive' => array(
+  ],
+  'customcivistylesui_responsive' => [
     'group_name' => 'Custom Styling for Civi Contribution Pages',
     'group' => 'customcivistylesui',
     'name' => 'statelegemail_stateconfig',
@@ -43,5 +43,5 @@ return array(
     'is_contact' => 0,
     'description' => 'Array of details about state legislators',
     'help_text' => 'State details',
-  ),
-);
+  ],
+];
